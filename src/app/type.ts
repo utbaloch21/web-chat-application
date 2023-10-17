@@ -1,6 +1,7 @@
 type messageDataTypes = {
   content: any;
-  fromSelf: boolean;
+  fromSelf?: boolean;
+  from?: string;
 };
 export type userDataType = {
   userID: string;
