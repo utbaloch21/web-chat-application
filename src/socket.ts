@@ -11,8 +11,7 @@ interface SocketData extends Socket {
   sessionID?: string;
 }
 // https://web-chat-application-ehfo6idgb-utbaloch21s-projects.vercel.app
-const SERVER_IP =
-  "web-chat-application-ehfo6idgb-utbaloch21s-projects.vercel.app"; // e.g., '10.13.1.215'
+const SERVER_IP = "usamatariq-10048-3eu7st4tpa-uc.a.run.app"; // e.g., '10.13.1.215'
 const SERVER_PORT = 8080;
 const socket: SocketData = io(`https://${SERVER_IP}:${SERVER_PORT}`, {
   autoConnect: false,
